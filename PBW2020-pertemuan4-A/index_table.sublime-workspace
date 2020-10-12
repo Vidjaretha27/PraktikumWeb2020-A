@@ -1,0 +1,363 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border\tAttr"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"mini",
+				"minimaks"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"al",
+				"justify-all\ttext-align"
+			],
+			[
+				"f",
+				"inline-flex\tdisplay"
+			],
+			[
+				"A",
+				"auto\tbackground-size"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fot",
+				"font-size\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"sess",
+				"session_unset"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"my",
+				"mysql_error"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Tugas-tugas/Tugas Kuliah/PBW/contoh/index2.html",
+		"/C/xampp/htdocs/PBW/index_table.html",
+		"/C/xampp/htdocs/PBW/index.html",
+		"/D/Tugas-tugas/Tugas Kuliah/PBW/PBW2020-pertemuan3-kelas/index.html",
+		"/C/xampp/htdocs/Rental-Motor/Rental-Motor/admin/includes/config.php",
+		"/C/xampp/htdocs/Rental-Motor/Rental-Motor/includes/config.php",
+		"/C/xampp/htdocs/retha_ro/tampilan.css",
+		"/C/xampp/htdocs/retha_ro/index.html",
+		"/C/xampp/htdocs/retha_ro/namatabel.php",
+		"/C/xampp/htdocs/retha_ro/isitabel.php",
+		"/C/xampp/htdocs/retha_ro/inputan.php",
+		"/C/xampp/htdocs/retha_ro/hasil.php",
+		"/C/xampp/htdocs/retha_ro/tampiltabel.php",
+		"/C/xampp/htdocs/retha_ro/apaitu.php",
+		"/C/xampp/htdocs/retha_ro/style.css",
+		"/C/xampp/htdocs/retha_ro/gaya.css",
+		"/C/xampp/htdocs/retha_ro/facebook1.png",
+		"/C/xampp/htdocs/retha_ro/facebook.png",
+		"/C/xampp/htdocs/transportasi/isitabel.php",
+		"/C/xampp/htdocs/retha_ro/pilihan.php",
+		"/C/xampp/htdocs/least_cost/table.php",
+		"/C/xampp/htdocs/least_cost/index.php",
+		"/C/xampp/htdocs/retha_ro/tabel.php",
+		"/C/xampp/htdocs/retha_ro/hitung.php",
+		"/C/xampp/htdocs/retha_ro/mulai.php",
+		"/C/xampp/htdocs/retha_ro/index.php",
+		"/C/xampp/htdocs/RO_retha/mulai.php",
+		"/C/xampp/htdocs/RO_retha/index.php",
+		"/C/xampp/htdocs/RO_retha/awal.php",
+		"/C/xampp/htdocs/RO_retha/awal.html",
+		"/C/xampp/htdocs/RO_retha/style.css",
+		"/C/xampp/htdocs/RO_retha/login.php",
+		"/C/xampp/htdocs/rental_motor/rental_motor/konek.php",
+		"/C/xampp/htdocs/RO_retha/index.html",
+		"/C/xampp/htdocs/RO_retha/login.html",
+		"/C/xampp/htdocs/login_retha/style.css",
+		"/C/xampp/htdocs/rental_motor/index.php",
+		"/C/xampp/htdocs/transportasi/biaya.php",
+		"/C/xampp/htdocs/transportasi/hitung.php",
+		"/C/xampp/htdocs/transportasi/nama.php",
+		"/C/xampp/htdocs/transportasi/tampil.php",
+		"/C/xampp/htdocs/transportasi/style.css",
+		"/C/xampp/htdocs/transportasi/index.php",
+		"/C/xampp/htdocs/rental_motor/koneksi.php",
+		"/C/xampp/htdocs/rental_motor/masuk.php",
+		"/C/xampp/htdocs/rental_motor/login.php",
+		"/C/xampp/htdocs/rental_motor/logout.php",
+		"/C/xampp/htdocs/rental_motor/admin.php",
+		"/C/xampp/htdocs/rental_motor/kontrol.php",
+		"/C/xampp/htdocs/rental_motor/admin1.php",
+		"/D/Tugas-tugas/Tugas Kuliah/Latihan Web Dev/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index_table.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- memberikan nama untuk di tab -->
+		<title> Tugas Tabel </title>
+	</head>
+
+	<body>
+		<!-- judul menggunakan header 2 agar tidak terlalu besar dan dilanjuti dengan paragraf dibawahnya -->
+		<h2 align="center">DAFTAR HADIR</h2>
+		<p align="center">PRAKTIKUM PEMROGRAMAN BERBASIS WEB</p>
+		<!-- <hr /> (horizontal rule) digunakan untuk membuat garis horizontal panjang melintang sebagai pembatas antara judul dan tabel yang ingin dibuat-->
+		<hr />
+		<!-- <br> digunakan untuk break sehingga ada jarak diantara garis dan tabel -->
+		<br>
+		<!-- <table> merupakan tags untuk membuat suatu tabel dengan pembagian thead dan tbody agar memudahkan membaca -->
+		<!-- penempatan table ini juga di setting agar ditengah dengan perintah align center -->
+		<table border="" align="center">
+			<thead>
+				<tr bgcolor="#008080">
+					<!-- menggunakan rowspan untuk merging 2 baris  -->
+	            	<th width="150px" rowspan="2">NIM</th>
+	            	<th width="1000px" rowspan="2">Nama</th>
+	            	<!-- menggunakan colspan untuk merging 5 kolom -->
+	            	<th width="500px" colspan="5">Pertemuan</th>
+	            </tr>
+	            <!-- baris ini nantinya akan jadi satu bagian di baris pertemuan -->
+	            <tr align="center" bgcolor="#008080">
+	            	<th width="50px">1</th>
+	            	<th width="50px">2</th>
+	            	<th width="50px">3</th>
+	            	<th width="50px">4</th>
+	            	<th width="50px">5</th>
+            	</tr>
+			</thead>
+			<!-- pada tbody sudah masuk ke penginputan data sesuai yang tertera pada thead, diisi berurutan agar hasilnya sejajar -->
+            <tbody align="center" bgcolor="#F0F8FF">
+	            <tr>
+	            	<td>1808561001</td>
+	            	<td>Safira</td>
+	            	<!-- menggunakan gambar ttd yang sudah disimpan dalam satu folder dengan index_table.html agar memudahkan memanggil gambar lalu diberikan ukuran lebar 50px -->
+	            	<td><img src="ttd safira.jpeg" width="50px"></td>
+	            	<td><img src="ttd safira.jpeg" width="50px"></td>
+	            	<td><img src="ttd safira.jpeg" width="50px"></td>
+	            	<!-- merupakan Entity Number untuk menampilkan bentuk silang diawali tanda '&' dan diakhiri dengan tanda ';' -->
+	            	<td>&times;</td>
+	            	<td><img src="ttd safira.jpeg" width="50px"></td>
+	            </tr>
+	            <tr>
+	            	<td>1808561002</td>
+	            	<td>Ni Putu Ambalika Dewi</td>
+	            	<!-- menggunakan gambar ttd yang sudah disimpan dalam satu folder dengan index_table.html agar memudahkan memanggil gambar lalu diberikan ukuran lebar 50px -->
+	            	<td><img src="ttd dewik.PNG" width="50px"></td>
+	            	<!-- merupakan Entity Number untuk menampilkan bentuk silang diawali tanda '&' dan diakhiri dengan tanda ';' -->
+	            	<td>&times;</td>
+	            	<td><img src="ttd dewik.PNG" width="50px"></td>
+	            	<td><img src="ttd dewik.PNG" width="50px"></td>
+	            	<td><img src="ttd dewik.PNG" width="50px"></td>
+	            </tr>
+	            <tr>
+	            	<td>1808561003</td>
+	            	<td>Ayu Kadek Nadya Oktaviana</td>
+	            	<!-- menggunakan gambar ttd yang sudah disimpan dalam satu folder dengan index_table.html agar memudahkan memanggil gambar lalu diberikan ukuran lebar 50px -->
+	            	<td><img src="ttd nadok.PNG" width="50px"></td>
+	            	<td><img src="ttd nadok.PNG" width="50px"></td>
+	            	<!-- merupakan Entity Number untuk menampilkan bentuk silang diawali tanda '&' dan diakhiri dengan tanda ';' -->
+	            	<td>&times;</td>
+	            	<td><img src="ttd nadok.PNG" width="50px"></td>
+	            	<td><img src="ttd nadok.PNG" width="50px"></td>
+	            </tr>
+	            <tr>
+	            	<td>1808561004</td>
+	            	<td>Gusti Ayu Vidjaretha Wardana</td>
+	            	<!-- merupakan Entity Number untuk menampilkan bentuk silang diawali tanda '&' dan diakhiri dengan tanda ';' -->
+	            	<td>&times;</td>
+	            	<!-- menggunakan gambar ttd yang sudah disimpan dalam satu folder dengan index_table.html agar memudahkan memanggil gambar lalu diberikan ukuran lebar 50px -->
+	            	<td><img src="ttd retha.jpeg" width="50px"></td>
+	            	<td><img src="ttd retha.jpeg" width="50px"></td>
+	            	<td><img src="ttd retha.jpeg" width="50px"></td>
+	            	<td><img src="ttd retha.jpeg" width="50px"></td>
+	            </tr>
+	            <tr>
+	            	<td>1808561006</td>
+	            	<td>Luh Putu Eka Nadya Wati</td>
+	            	<!-- menggunakan gambar ttd yang sudah disimpan dalam satu folder dengan index_table.html agar memudahkan memanggil gambar lalu diberikan ukuran lebar 50px -->
+	            	<td><img src="ttd ekanad.PNG" width="50px"></td>
+	            	<td><img src="ttd ekanad.PNG" width="50px"></td>
+	            	<td><img src="ttd ekanad.PNG" width="50px"></td>
+	            	<td><img src="ttd ekanad.PNG" width="50px"></td>
+	            	<td><img src="ttd ekanad.PNG" width="50px"></td>
+	            </tr>
+            </tbody>
+        </table>
+        <br>
+        <table border="">
+        	<thead>
+        		<tr bgcolor="#FF6347">
+        			<!-- tabel keterangan akan memerging 2 kolom -->
+        			<th colspan="2">Keterangan</th>
+        		</tr>
+        	</thead>
+        	<tbody align="center">
+        		<tr>
+        			<!-- isi dari rabel keterangan yaitu ada simbol dan juga artinya. dimana jika tidak hadir akan ditandai dengan x, jika hadir akan ada image ttd orang tersebut -->
+        			<td width="50px" height="50px"> &times; </td>
+        			<td width="200px"> Tidak Hadir </td>
+        		</tr>
+        		<tr>
+        			<td width="50px" height="50px"><img src="sign.jpg" width="50px" align="center"></td>
+        			<td>Hadir</td>
+        		</tr>
+        	</tbody>
+        </table>
+        <br>
+        <!-- sebagai tambahan diakhir untuk menuliskan bahwa index_table.html ini tidak menggunakan CSS dalam mendesain tabel maupun tampilan dan juga menerima tantangan untuk menginputkan gambar tandatangan sebagai absensi bahwa individu hadir -->
+        <p>&raquo; No CSS used</p>
+        <p>&raquo; Challenges hand's signature <b>Accepted</b></p>
+	</body>
+</html>
