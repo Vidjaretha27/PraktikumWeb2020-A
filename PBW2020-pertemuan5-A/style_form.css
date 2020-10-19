@@ -1,0 +1,141 @@
+/* body disini tidak diawali dengan '.' dikarenakan body bukanlah sebuah class, sama dengan h1 dan juga p */
+body{
+    /* karena saya mengambil background dari gambar yang saya download maka saya mencantumkan nama url gambar tersebut */
+    background: url(congruent_pentagon2.png);
+    /* jenis-jenis background ini digunakan untuk mengatur gambar diatas baik itu dari pengulangan gambar, penempatan dan juga ukuran dari gambar */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin-left: 150px;
+    /* menggunakan family font untuk keseluruhan body tetapi tidak termasuk place holder */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    /* margin ini berfungsi sebagai kode yang mengatur seleksi batas jarak luar */
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: black ;
+    font-size: 50px;
+    width: 100%;
+}
+
+p{
+    margin-top: 15px;
+    color: black ;
+    font-size: 25px;
+    width: 100%;
+}
+
+/* disini penulisan class diawali dengan '.' yang menandakan class yang sudah kita tentukan sebelumnya di index_form.html */
+/* dengan kata lain, class ini nantinya akan dipanggil di css untuk dimodifikasi sesuai keinginan user */
+.namalengkap{
+    /* padding ini berfungsi sebagai kode yang mengatur seleksi batas jarak dalam, dalam kata lain untuk mengatur besar box pada nama lengkap dan yang lainnya */
+    padding: 5px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    width: 43%;
+}
+
+.namapanggil{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 43%;
+    padding: 5px;
+}
+
+.notelp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    width: 43%;
+    padding: 5px;
+}
+
+.email{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 43%;
+    padding: 5px;
+}
+
+.tgllahir{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    width: 28%;
+    padding: 5px;
+}
+
+.tmptlahir{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 29%;
+    padding: 5px;
+}
+
+.agama{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 28.4%;
+    padding: 5px;
+}
+
+.univ{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    width: 28%;
+    padding: 5px;
+}
+
+.fak{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 29%;
+    padding: 5px;
+}
+
+.jabatan{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 27.4%;
+    padding: 5px;
+}
+
+.alamat{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    width: 87.4%;
+    padding: 5px;
+}
+
+.labfoto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 220px;
+    font-size: 15px;
+    width: 20%;
+    padding: 5px;
+}
+
+.labscan{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.foto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-right: 36px;
+    width: 20%;
+    padding: 5px;
+}
+
+.daftar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 10%;
+    padding: 5px;
+    background-color: olivedrab;
+    color: white;
+}

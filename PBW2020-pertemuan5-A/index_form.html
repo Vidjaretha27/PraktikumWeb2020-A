@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- tags link untuk menghubungkan dengan file css style_form untuk memberikan tampilan pada html -->
+        <link rel="stylesheet" type="text/css" href="style_form.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pendaftaran</title>
+    </head>
+    <body>
+        <h1>Halaman Pendaftaran</h1>
+        <p>Pendaftaran Sebagai Penerima Beasiswa ADARO Foundation Periode 2020 </p>
+        <br>
+        <br>
+        <!-- tags form ini berguna untuk memulai membuat formulir yang dapat diinputkan user. -->
+        <!-- attribute action masih dikosongkan karena belum membuat link ke file lain sehingga tidak diperlukan action -->
+        <form action="">
+            <!-- saya menggunakan bentuk text, number dan juga select option untuk kepentingan form pendaftaran -->
+            <!-- type text digunakan untuk user menginputkan kata-kata nantinya -->
+            <input type="text" name="namalengkap" class="namalengkap" placeholder="Nama Lengkap"/>
+            <input type="text" name="namapanggilan" class="namapanggil" placeholder="Nama Panggilan"/>
+            <br>
+            <input type="text" name="notelp" class="notelp" placeholder="No. Telepon"/>
+            <input type="text" name="email" class="email" placeholder="Email"/>
+            <br>
+            <!-- type number saya gunakan agar user bisa memilih tanggal lahir dengan list angka yang sudah ada di type number,
+            user bisa memilih angka yang ingin diinputkan -->
+            <input type="number" name="tgllahir" class="tgllahir" placeholder="Tanggal Lahir"/>
+            <input type="text" name="tmptlahir" class="tmptlahir"placeholder="Tempat Lahir"/>
+            <!-- pada select option ini berguna untuk memberikan pilihan 5 jenis agama, dimana terdapat 'selected' pada option no 1
+            menandakan bahwa web setiap di refresh akan langsung memilih agama hindu sebagai default -->
+            <select name="agama" id="agama" class="agama">
+                <option value="">--Agama--</option>
+                <option value="1" selected> Hindu</option>
+                <option value="2"> Buddha</option>
+                <option value="3"> Islam</option>
+                <option value="4"> Katolik</option>
+                <option value="5"> Kristen</option>
+            </select>
+            <br>
+            <input type="text" name="univ" class="univ" placeholder="Universitas"/>
+            <input type="text" name="fak" class="fak" placeholder="Fakultas/Jurusan"/>
+            <input type="text" name="jabatan" class="jabatan" placeholder="Jabatan"/>
+            <br>
+            <input type="text" name="alamat" class="alamat" placeholder="Alamat Asal"/>
+            <br>
+            <!-- disini ada label untuk memberikan keterangan untuk inputan selanjutnya -->
+            <label for="file" class="labfoto">Foto Almamater :</label>
+            <label for="file" class="labscan">Scan KTP :</label>
+            <br>
+            <!-- inputan disini berupa type file dimana yg nantinya user harus mengupload file yang sudah tertera di label untuk melakukan
+            pendaftaran -->
+            <input type="file" name="foto" class="foto">
+            <input type="file" name="scan" class="scan">
+            <br>
+            <!-- terakhir ada type button yang berbentuk tombol untuk mendaftarkan data-data yang sudah diinputkan sebelumnya -->
+            <input type="button" value="DAFTAR" class="daftar">
+        </form>
+    </body>
+</html>
