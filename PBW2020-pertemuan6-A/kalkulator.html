@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style_cal.css">
+        <title>Kalkulator Vidjaretha</title>
+    </head>
+    <body>
+        <h2 align="center">TUGAS KALKULATOR</h2>
+        <p align="center">Gusti Ayu Vidjaretha Wardana</p>
+        <p align="center">1808561004</p>
+        <p align="center">Kelas A</p>
+        <hr />
+        <br>
+        <form name="Kalkulator">
+            <table class="tabel" align="center">
+                <tr>
+                    <th width="150px" bgcolor="#008080">Angka 1</th>
+                    <th width="150px" bgcolor="#008080">Angka 2</th>
+                    <td><input type="button" class="tombol" onclick="tambah()" value="+"></td>
+                    <th width="100px" bgcolor="#008080">HASIL</th>
+                </tr>
+                <tr>
+                    <td rowspan="3"><input type="number" name="angka1" class="input"></td>
+                    <td rowspan="3"><input type="number" name="angka2" class="input"></td>
+                    <!-- event onclick berfungsi untuk men-trigger tombol yang di klik oleh user dan langsung memprosesnya -->
+                    <td><input type="button" class="tombol" onclick="kurang()" value="-"></td>
+                    <!-- perintah readonly digunakan hanya untuk read, dan user tidak dapat memasukkan inputan hanya untuk menampilkan jawaban saja -->
+                    <td rowspan="3"><input type="number" name="hasil" class="output" readonly></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="tombol" onclick="kali()" value="*">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="tombol" onclick="bagi()" value="/">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+<!-- script code javascript untuk function berhitung, bertipe data float dengan metode var agar nilai variabel terus terupdate-->
+<script type="text/javascript">
+function tambah(){
+    var angka1=parseFloat (document.Kalkulator.angka1.value);
+    var angka2=parseFloat (document.Kalkulator.angka2.value);
+    var hasil=angka1+angka2;
+    // script dibawah ini berfungsi untuk menampilkan informasi
+    document.Kalkulator.hasil.value=hasil;
+}
+function kurang(){
+    var angka1=parseFloat (document.Kalkulator.angka1.value);
+    var angka2=parseFloat (document.Kalkulator.angka2.value);
+    var hasil=angka1-angka2;
+    document.Kalkulator.hasil.value=hasil;
+}
+function kali(){
+    var angka1=parseFloat (document.Kalkulator.angka1.value);
+    var angka2=parseFloat (document.Kalkulator.angka2.value);
+    var hasil=angka1*angka2;
+    document.Kalkulator.hasil.value=hasil;
+}
+function bagi(){
+    var angka1=parseFloat (document.Kalkulator.angka1.value);
+    var angka2=parseFloat (document.Kalkulator.angka2.value);
+    var hasil=angka1/angka2;
+    document.Kalkulator.hasil.value=hasil;
+}
+</script>

@@ -1,0 +1,19 @@
+.tombol{
+    background-color: skyblue;
+    width: 100%;
+    length: 100%;
+}
+
+.tabel{
+    align-items: center;
+}
+
+.input{
+    width: 95%;
+    length: 95%;
+    text-align: center;
+}
+
+.output{
+    text-align: center;
+}
