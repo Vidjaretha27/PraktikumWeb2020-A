@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px 30%;
+    background-color: #deffa1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    background-color: #6e8c35;
+    padding: 30px 10%;
+    color: white;
+}
+
+.tabel-input{
+    width: 100%;
+    font-weight: bold;
+    /* border: 1px solid #deffa1; */
+}
+
+.tabel-output{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #deffa1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+td{
+    padding: 5px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tombol-submit{
+    background-color: #ceff6b;
+    border: 3px solid #dbe6c5;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#input{
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+}
